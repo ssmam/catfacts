@@ -18,20 +18,37 @@ Follow these steps to set up the project locally:
 ## Prerequisites
 
 - [Node.js and npm](https://nodejs.org/) installed on your system.
-
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/ssmam/catfacts.git
 
- 2. **navigate to the project folder**
+2. **navigate to the project folder**
    cd catfacts
  
- 3. npm install
+3. npm install
  
 
- 4. npm start
+4. npm install -g nodemon
+   (linux: sudo npm install -g nodemon)
+ 
+5. nodemon index.js
 
- 5. Access the application: Open your browser and go to `http://localhost:3000` to view the app
+6. Access the application: Open your browser and go to `http://localhost:3000` to view the app
+   
+
+## another method (from the third step)
+
+4. nano package.json
+
+5.  add this code in the package.json
+       "scripts": {
+  "start": "node index.js"
+    }
+ `it tells Node.js to run the index.js file`
+
+6.npm start
+
+7. Access the application: Open your browser and go to `http://localhost:3000` to view the app
 
  ## Technologies Used
  - Node.js
