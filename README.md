@@ -46,7 +46,7 @@ Follow these steps to set up the project locally:
     }
  `it tells Node.js to run the index.js file`
 
-6.npm start
+ 6.npm start
 
 7. Access the application: Open your browser and go to `http://localhost:3000` to view the app
 
